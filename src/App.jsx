@@ -13,13 +13,13 @@ function RouteLogger() {
     logger.info("Navigated to route", location.pathname);
   }, [location]);
 
-  return null; // this component doesn't render anything
+  return null; 
 }
 
 function App() {
   return (
     <Router>
-      {/* Route logger always runs on navigation */}
+    
       <RouteLogger />
 
       <Routes>
